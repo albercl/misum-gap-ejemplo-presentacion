@@ -1,4 +1,4 @@
-import assert from 'assert'
+const assert = require('assert');
 
 const array = [1, -1, 2, 3];
 

@@ -1,4 +1,4 @@
-import assert from 'assert'
+const assert = require('assert')
 
 function acircle(r) {
     // Calcula el área de un círculo a partir de su radio
