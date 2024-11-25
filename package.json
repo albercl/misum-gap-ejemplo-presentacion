@@ -1,0 +1,21 @@
+{
+  "name": "presentacion-gap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "area": "node src/area.js",
+    "functional": "node src/functional.js",
+    "test:jest": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest",
+    "test:jest:coverage": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest --coverage",
+    "test:cucumber": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.1.0"
+  }
+}
