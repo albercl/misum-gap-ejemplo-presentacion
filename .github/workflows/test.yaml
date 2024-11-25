@@ -10,5 +10,14 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run tests
-      run: npm test
+    - name: Run area test
+      run: npm run area
+
+    - name: Run refactoring test
+      run: npm run functional
+
+    - name: Run cucumber
+      run: npm run cucumber
+
+    - name: Run unit tests
+      run: npm run test:jest
