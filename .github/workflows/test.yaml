@@ -17,7 +17,7 @@ jobs:
       run: npm run functional
 
     - name: Run cucumber
-      run: npm run cucumber
+      run: npm run test:cucumber
 
     - name: Run unit tests
       run: npm run test:jest
