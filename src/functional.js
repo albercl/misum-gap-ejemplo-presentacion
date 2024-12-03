@@ -12,9 +12,9 @@ console.log(result1);
 
 // Refactorizado
 const result2 = array
-  .filter(item => item > 0)
-  .map(item => item * 2)
-  .reduce((acc, item) => acc + item, 0)
+  .filter((item) => item > 0)
+  .map((item) => item * 2)
+  .reduce((acc, item) => acc + item, 0);
 
 console.log(result2);
 
